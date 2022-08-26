@@ -28,12 +28,16 @@ main#main-doc {
 }
 
 header {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: sans-serif;
-    background-color: red;
-    color: white;
-    display: inline-block;
+    margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+	font-size: 22px;
+	line-height: 40px;
+	color: black;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
 }
 
 code {
@@ -50,6 +54,7 @@ nav#navbar a:hover {
 p {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
     color: black;
 }
 
@@ -61,4 +66,14 @@ ul {
 
 li:not(:last-child) {
     margin-bottom: 5px;
+}
+
+.bgimg-1 {
+    background-image: url(https://imgs.search.brave.com/fE-Gt2klzlItY0GV_dkgwvx2PFcmfEwgCqWSmf7Cdok/rs:fit:700:700:1/g:ce/aHR0cHM6Ly9sb2dv/cy1kb3dubG9hZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDEvR2l0X0xv/Z28tNzAweDcwMC5w/bmc);
+    height: 100%;
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
