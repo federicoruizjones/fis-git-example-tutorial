@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <link rel="stylesheet" href="../styles/webpage.css">
+</head>
+
+<body>
+    <div class="main-body">
+        <nav id="navbar">
+            <header>Indice</header>
+            <a href="#Git" class="nav-link"> ¿Qué es Git? </a>
+            <a href="#Git_Use" class="nav-link"> ¿Para qué sirve Git? </a>
+            <a href="#Git_Repository" class="nav-link"> ¿Qué es un repositorio? </a>
+            <a href="#Git_Branch" class="nav-link"> ¿Qué es una rama? </a>
+            <a href="#Git_Conflict" class="nav-link"> ¿Qué es un conflicto? </a>
+            <a href="#Git_Solve_Conflict" class="nav-link"> ¿Cómo se resuelve un conflicto? </a>
+            <a href="#Git_Init" class="nav-link"> Git init </a>
+            <a href="#Git_Clone" class="nav-link"> Git clone </a>
+            <a href="#Git_Status" class="nav-link"> Git status </a>
+            <a href="#Git_Add" class="nav-link"> Git add </a>
+            <a href="#Git_Commit" class="nav-link"> Git commit </a>
+            <a href="#Git_Log" class="nav-link"> Git log </a>
+            <a href="#Git_Remote" class="nav-link"> Git remote </a>
+            <a href="#Git_Pull" class="nav-link"> Git pull </a>
+            <a href="#Git_Push" class="nav-link"> Git push </a>
+            <a href="#Git_Checkout" class="nav-link"> Git checkout </a>
+            <a href="#Git_Branch" class="nav-link"> Git branch </a>
+            <a href="#Git_Merge" class="nav-link"> Git merge </a>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Git">
+                <header>¿Qué es Git?</header>
+                <p>
+                    Git es un sistema de control de versiones (VCS) de código distribuido. 
+                    Podemos destacar las siguientes características: 
+                    <ul>
+                        <li>Rápido y simple</li>
+                        <li>Sistema de trabajo con ramas</li>
+                        <li>No depende de un repositorio central</li>
+                        <li>Muy potente</li>
+                        <li>Flexibilidad</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="main-section" id="Git_Use">
+                <header>¿Para qué sirve Git?</header>
+                <p>
+                    Git permite manejar proyectos muy grandes y distribuidos. Es decir, los 
+                    desarrolladores pueden colaborar y realizar cambios <br>
+                    en proyectos compartidos, a la vez que mantienen un seguimiento detallado de su progreso.
+                </p>
+            </section>
+            <section class="main-section" id="Git_Repository">
+                <header>¿Qué es un repositorio?</header>
+                <p>
+                    Un repositorio es la ubicación o ruta en la que se almacena toda la información
+                    de un proyecto como imágenes, código, <br>
+                    carpetas, documentos, etc. Cada proyecto cuenta con su propio repositorio único, 
+                    por lo que la ruta de acceso será <br> 
+                    exclusiva para el proyecto.
+                </p>
+            </section>
+            <section class="main-section" id="Git_Branch">
+                <header>¿Qué es una rama?</header>
+                <p>
+                    En el caso que queramos trabajar en una parte concreta de nuestro proyecto de forma
+                    aislada sin afectar al repositorio principal, <br>
+                    tendremos que hacerlo mediante una rama (branch). <br>
+                    <b>El branch creará una copia exacta de nuestro proyecto.</b>
+                </p>
+            </section>
+            <section class="main-section" id="Git_Conflict">
+                <header>¿Qué es un conflicto?</header>
+                <p>
+                    Un conflicto ocurre cuando dos o más desarrolladores están editando el mismo espacio 
+                    de código ya que, en estos casos, <br> 
+                    <b>Git no puede determinar automáticamente qué es correcto.</b> <br>
+                    Para evitar esta situación, los desarrolladores trabajan en ramas independientes.    
+                </p>
+            </section>
+            <section class="main-section" id="Git_Solve_Conflict">
+                <header>¿Cómo se resuelve un conflicto?</header>
+                <p>
+                    Los conflictos se deben resolver mergeando los archivos en cuestión de manera manual.
+                    Es decir, comparar los archivos <br>
+                    y determinar cuál es el correcto o combinarlos.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Init">
+                <header>Git init</header>
+                <p>
+                    <i>git init</i> permite inicializar un repositorio a partir de una carpeta donde tengas
+                    almacenados los archivos que quieras gestionar.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Clone">
+                <header>Git clone</header>
+                <p>
+                    <i>git clone</i> permite obtener una copia local de un repositorio remoto.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Status">
+                <header>Git status</header>
+                <p>
+                    <i>git status</i> permite conocer la rama en que te encuentras, el estado de tus
+                    archivos y si es necesario actualizar el servidor remoto.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Add">
+                <header>Git add</header>
+                <p>
+                    <i>git add</i> permite agregar uno o varios archivos al stack de archivos prontos
+                    para el próximo commit.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Commit">
+                <header>Git commit</header>
+                <p>
+                    <i>git commit</i> permite confirmar los cambios realizados en el proyecto.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Log">
+                <header>Git log</header>
+                <p>
+                    <i>git log</i> permite ver el historial de <i>commits</i> en orden cronológico inverso.
+                    Es decir, comienza por el último <i>commit</i> realizado.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Remote">
+                <header>Git remote</header>
+                <p>
+                    <i>git remote</i> permite ver todos los repositorios remotos.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Pull">
+                <header>Git pull</header>
+                <p>
+                    <i>git pull</i> fusiona todos los cambios que se han hecho en el repositorio remoto
+                    con el directorio de trabajo local.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Push">
+                <header>Git push</header>
+                <p>
+                    <i>git push</i> se usa para enviar confirmaciones locales a la rama maestra del repositorio
+                    remoto.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Checkout">
+                <header>Git checkout</header>
+                <p>
+                    <i>git checkout</i> crea ramas y te ayuda a navegar entre ellas.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Branch">
+                <header>Git branch</header>
+                <p>
+                    <i>git branch</i> permite listar, crear o eliminar ramas. Por ejemplo, si queremos ver
+                    todas las ramas usamos <i>git branch</i> o si <br>
+                    queremos elimiar una usamos <i>git branch -d [name]</i>.
+                </p>
+            </section>
+            <section class="main-section" id="#Git_Merge">
+                <header>Git merge</header>
+                <p>
+                    <i>git merge</i> se usa para funcionar una rama con otra rama activa.
+                </p>
+            </section>
+        </main>
+    </div>
+</body>
